@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+</head>
+<body>
+ <form name="form1">
+
+<center><h1>HTML TASK 5</h1>
+  <h1 style="color:blue"> Registration Form  </h1></center>  
+
+<center><table>
+  <tr>
+   <td>First Name</td>
+   <td><input type="text" name="id" placeholder="" size="10"/ required></td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td><input type="text" name="firstname" placeholder= "" size="120" required />   </td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="email" value="" name="email" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" placeholder="" size="120" required />
+    </td>
+  </tr>
+  <tr>
+    <td><label for="psw"><b>Password:</b></label></td>
+        <td><input type="password" placeholder="" name="psw" id="psw" required></td>
+        <tr>
+            <td><label for="psw-repeat"><b>Re-enter Password:</b></label></td>
+         <td><input type="password" placeholder="" name="psw-repeat" id="psw-repeat" required></td>
+        </td>
+        </tr>
+  </tr>
+  
+  <tr>
+      <td>Gender:</td>
+     
+      <td><input type="radio" name="country1"/> Male <br>  
+        <hr>
+       <input type="radio" name="others"/> Female <br> </td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td><input type="text" name="phone" placeholder="" size="10"/ required> </td>
+</>
+  <tr>
+    <td>Phone No</td>
+    <td><input type="text" name="phone" placeholder="" size="10"/ required>   </td>
+</tr>
+  
+  <tr>
+      <td>Address</td>
+      <td><textarea cols="80" rows="5"  name="comment" placeholder="Current Address"  value="address" required>  
+          </textarea> 
+      </td>
+  </tr>
+  <tr>
+    <td>State</td>
+    <td><input type="text" name="phone" placeholder="" size="10"/ required>   </td>
+</tr>
+  <tr>
+    <td>Country</td>
+    <td>
+      <select id="ddlViewBy">  
+          <option value="">India</option>  
+          <option value="">Singapore</option>  
+          <option value="">Malaysia</option>  
+      </select>  
+    </td>
+<tr>
+    <td>Languages known </td>
+    <td><input type="checkbox" name=""> English  <input type="checkbox" name="others"> Kannada <input type="checkbox" name="others">Hindi <input type="checkbox" name="others"> Telugu </td>
+
+</tr>
+
+</tr>
+    <td><input type="checkbox" name="others"> Hereby I declare all the details are true  </td> 
+  
+  <tr>  <td>Login to <a  href=" ">
+   Ethnus 
+    </a>
+website</td>
+<tr>
+    
+</tr>
+</table>
+<input type="submit" value="Register" onClick="display();">
+</center>
+
+</form>
+
+</body>
+</html>
